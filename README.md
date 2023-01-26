@@ -130,9 +130,3 @@ _Usuário_ | _Senha_ | _Função_
 `post-only` | `postonly` | Conta somente para postar
 
 A sugestão é que se faça o primeiro login com o usuário **glpi** e altere a senha de todos os usuários.
-
-Para suporte comercial, entre em contato por [e-mail](mailto:henrique@henrique.tec.br "henrique@henrique.tec.br"), [telegram](https://t.me/HenriqueFagundes "@HenriqueFagundes") ou [whatsapp](https://web.whatsapp.com/send?phone=5521981176211 "Henrique Fagundes").
-
-<h4>Acesse meu site:</h4>
-
-<https://www.henrique.tec.br>
