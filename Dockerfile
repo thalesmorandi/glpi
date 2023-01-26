@@ -1,4 +1,4 @@
-FROM debian:11.4
+FROM debian:11.6
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt update && apt dist-upgrade -y && apt autoremove -y \
