@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt update && apt dist-upgrade -y && apt autoremove -y \
 	&& apt install --yes --no-install-recommends apache2 php php-mysql php-ldap \
 	php-xmlrpc php-imap curl php-curl php-gd php-mbstring php-xml php-apcu-bc \
-	php-cas php-intl php-zip php-bz2 cron wget ca-certificates jq libldap-2.4-2 \
+	php-cas php-intl php-zip php-bz2 php-redis cron wget ca-certificates jq libldap-2.4-2 \
 	libldap-common libsasl2-2 libsasl2-modules libsasl2-modules-db && \
 	apt-get clean all && rm -rf /var/lib/apt/lists/* && \
 	ln -sf /dev/stdout /var/log/apache2/access.log && \
