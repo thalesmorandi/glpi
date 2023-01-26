@@ -14,6 +14,8 @@ RUN apt update && apt dist-upgrade -y && apt autoremove -y \
 	&& rm -f /var/www/html/index.html
 
 COPY glpi.sh change_upload_max_filesize.php default_upload_max_filesize.php /opt/
+COPY change_upload_max_filesize.php /opt/
+COPY default_upload_max_filesize.php /opt/
 COPY 000-default.conf /etc/apache2/sites-enabled/000-default.conf
 RUN chmod +x /opt/glpi.sh
 
